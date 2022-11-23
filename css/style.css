@@ -1,0 +1,177 @@
+/* CSS RESET */
+ *  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+     
+
+header {
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.lupa{
+    
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    align-self: baseline;
+    border: 5px;
+    border-color: red;
+}
+
+header > div > a{
+
+    align-self: center;    
+}
+
+header > div > input {
+
+    background-color: #c76b00;
+    color: white;
+    text-align: center;
+    border:none;
+    width: 400px;
+    height: 40px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+nav {
+        
+    width:20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo > a > img {
+
+    width: 170px;
+    height: 100px;
+}
+
+
+header > nav > a {
+    background-color:#c76b00;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+
+.topicos{
+    background-color: #c76b00;
+    color: white;
+    width: 100vw; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.topicos > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner  {
+     
+    height: 65vh;
+    width: 100vw;
+    background-image: url(../img/banner_cs\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #c76b00;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-cadastro{
+
+    position: relative;
+    top: 25%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    background: #c76b00;
+    border-radius: 10px;
+    padding: 15px;
+    width: min-content;
+    align-items: flex-end;
+    color: #000;
+    
+}
+
+.btn-cadastro > a{
+
+    text-decoration: none;
+    color: white;
+    }
+
+.lançamentos{
+    width: 100vw;
+    font-size: x-large;
+    background-color: #c76b00;
+    color: white;
+    text-align: center;
+    
+}
+
+.itens{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itens > a > img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.rodape{
+    background-color: #c76b00;
+    color: white;
+    width: 100vw;
+    align-items: center; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape > a{
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+
+.rodape > a > img{
+    width: 35px;
+    height: 35px;
+}
+
